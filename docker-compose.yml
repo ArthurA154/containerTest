@@ -1,8 +1,7 @@
-version: "3.9"
-
 services:
   api:
-    image: probe-api         # <-- hier dein fertiges Image (muss vorher gebaut/geladen sein)
+    build: .
+    image: probe-api     # optional: lokaler Name
     container_name: probe-api
     restart: unless-stopped
     networks: [ web ]
