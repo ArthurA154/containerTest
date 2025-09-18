@@ -1,0 +1,4 @@
+api.bitfix.ch {
+  encode zstd gzip
+  reverse_proxy api:8080
+}
