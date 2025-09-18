@@ -1,4 +1,4 @@
-# 1. Basis-Image mit Python
+# 1. Basis-Image mit Python3
 FROM python:3.12-slim
 
 # 2. Arbeitsverzeichnis im Container
